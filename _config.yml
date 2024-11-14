@@ -1,0 +1,17 @@
+name: Jekyll Themes Test
+#url: http://matt.harzewski.com
+url: jekyll-demo-test-geno.github.io
+description: Insert tagline here
+
+permalink: /themes/:title/
+
+plugins: [jekyll-paginate]
+
+highlighter: pygments
+paginate: 20
+
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
